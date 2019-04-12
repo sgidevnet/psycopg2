@@ -29,12 +29,12 @@ environment:
 
     PSYCOPG2_TESTDB: psycopg2_test
     PSYCOPG2_TESTDB_USER: postgres
-    PSYCOPG2_TESTDB_PASSWORD: Password12!
     PSYCOPG2_TESTDB_HOST: localhost
     PSYCOPG2_TESTDB_PORT: 5432
 
     PGUSER: postgres
     PGPASSWORD: Password12!
+    PGSSLMODE: require
 
 matrix:
     fast_finish: false
